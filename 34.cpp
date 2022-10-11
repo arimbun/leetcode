@@ -8,11 +8,13 @@ using namespace std;
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
+        // Base case #1
         if (nums.size() == 0) {
             vector<int> r(2,-1);
             return r;
         }
 
+        // Base case #2
         if (nums.size() == 1) {
             if (nums[0] == target) {
                 vector<int> r(2,0);
@@ -22,50 +24,47 @@ public:
                 return r;
             }
         }
-        
-        bool searched[nums.size()];
-        for (int i = 0; i < nums.size(); i++) searched[i] = false;
 
-        int i = 0, j = nums.size()-1, k = j/2, s = -1;
-        if (nums[j] == target) {
-            s = j;
-        } else {
-            while (!searched[k]) {
-                searched[k] = true;
-                int x = nums[k];
-
-                if (x == target) {
-                    s = k;
-                    break;
-                } else if (x < target) {
-                    i = k;
-                    k = (i+j)/2;
-                } else {
-                    j = k;
-                    k = (i+k)/2;
-                }
-            }
-        }
-
-        int a = s, b = s;
-        if (a > 0) {
-            while (nums[a-1] == target) {
-                a--;
-                if (a == 0) break;
-            }
-        }
-
-        if (b < nums.size()-1) {
-            while (nums[b+1] == target) {
-                b++;
-                if (b == nums.size()-1) break;
+        // Binary search
+        int s = 0;
+        int e = nums.size()-1;
+        int p = -1;
+        while (s <= e) {
+            int mid = s + (e-s)/2;
+            
+            if (nums[mid] == target) {
+                p = mid;
+                break;
+            } else if (nums[s] <= target && target < nums[mid]) {
+                e = mid-1;
+            } else {
+                s = mid+1;
             }
         }
 
         vector<int> r;
+        int a = p, b = p;
+        if (p != -1) {
+            // Find first index of occurrence
+            if (a > 0) {
+                while (nums[a-1] == target) {
+                    a--;
+                    if (a == 0) break;
+                }
+            }
+
+            // Find last index of occurrence
+            if (b < nums.size()-1) {
+                while (nums[b+1] == target) {
+                    b++;
+                    if (b == nums.size()-1) break;
+                }
+            }
+        }
+
         r.push_back(a);
         r.push_back(b);
-        return r;
+        return r;    
     }
 };
 
