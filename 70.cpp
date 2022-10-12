@@ -1,32 +1,31 @@
 #include <iostream>
-#include <map>
 #include <string>
 #include <vector>
-#include <cmath>
+#include <algorithm>
 
 using namespace std;
 
 class Solution {
 public:
-    int climbStairs(int n) {
-        vector<int> m;
-        m.push_back(1);
-        m.push_back(2);
+    int rob(vector<int>& nums) {
+        if (size(nums) == 1) return nums[0];
 
-        if (n <= 2) return m[n-1];
-
-        for (int i = 2; i < n; i++) {
-            int j = m[i-1] + m[i-2];
-            m.push_back(j);
+        vector<int> mem(nums);
+        mem[1] = max(nums[0], nums[1]);
+        for (int i = 2; i < size(nums); i++) {
+            mem[i] = max(mem[i-1], mem[i-2]+nums[i]);
         }
-        return m[n-1];
+
+        return mem.back();
     }
 };
 
 int main() {
     Solution s;
 
-    cout << s.climbStairs(5) << endl;
+    int arr[] = {0,1,2,3,4,4,4};
+    vector<int> money (arr, arr + sizeof(arr) / sizeof(int) );
+    cout << s.rob(money) << endl;
 
     return 0;
 }
