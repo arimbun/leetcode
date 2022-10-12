@@ -8,11 +8,11 @@ using namespace std;
 class Solution {
 public:
     int rob(vector<int>& nums) {
-        if (size(nums) == 1) return nums[0];
+        if (nums.size() == 1) return nums[0];
 
         vector<int> mem(nums);
         mem[1] = max(nums[0], nums[1]);
-        for (int i = 2; i < size(nums); i++) {
+        for (int i = 2; i < nums.size(); i++) {
             mem[i] = max(mem[i-1], mem[i-2]+nums[i]);
         }
 
