@@ -2,39 +2,45 @@ from typing import List
 
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        # base case - exactly 0 coin needed to sum to 0
+        # base case: exactly 0 coin is needed to sum to 0
         if amount == 0:
             return 0
 
+        # any other case:
         sorted_coins = sorted(coins)
         minCoinsMatrix = [float('inf') for x in range(amount+1)]
         minCoinsMatrix[0] = 0
 
-        # build min number of coins to get to amt = 1 all the way to
-        # amt = amount
+        # build a matrix of coinChange starting from 1 all the way to amount
         for amt in range(1, amount+1):
-            # print(amount_i)
+            # consider every coin in the list
             for j in range(len(sorted_coins)):
-                val = sorted_coins[j]
+                val = sorted_coins[j]   # value of current coin
+
+                # value greater than amt? skip to next amt
                 if val > amt:
                     break
-                diff = amt - val
 
+                # else calculate difference after coin value is subtracted from
+                # amount
+                diff = amt - val
                 if diff == 0:
-                    # diff < 0 - exactly 1 coin needed to to sum to amount_i
+                    # diff < 0: exactly 1 coin is needed to sum to amt
                     minCoinsMatrix[amt] = 1
                 elif diff < 0:
-                    # diff < 0 - not possible to sum to amount_i
+                    # diff < 0: it is not possible to sum to amt
                     minCoinsMatrix[amt] = -1
                 else:
-                    # diff > 0
+                    # diff > 0: consider the min number of coins to sum to diff
                     if minCoinsMatrix[diff] == -1:
+                        # if -1 then it is not possible to sum to amt
                         minCoinsMatrix[amt] = -1
                     else:
+                        # if >= 0 then it is possible to sum to amt
+                        # if the current # of coins needed is the minimum then set it to that
                         minCoinsMatrix[amt] = min(1 + minCoinsMatrix[diff], minCoinsMatrix[amt])
-                        # print("minCoinsMatrix[amount_i]", minCoinsMatrix[amount_i], end=" | ")
 
-        # post-processing - set any amount that is still infinite to -1
+        # post-processing: set any amount in the matrix that is still infinite to -1
         minCoinsMatrix = [-1 if x == float('inf') else x for x in minCoinsMatrix]
 
         return minCoinsMatrix[amount]
