@@ -2,8 +2,6 @@
 
 Solutions to problems on [LeetCode](https://leetcode.com/) with explanations where applicable.
 
-## Table of Contents
-
 - [Dynamic Programming](#dynamic-programming)
 - [Hash Map](#hash-map)
 - [Linked List](#linked-list)
