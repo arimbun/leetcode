@@ -61,6 +61,7 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 ## Two Pointers
 
 - Problem 15 - 3Sum
+- Problem 16 - 3Sum Closest to Target
 
 ## Others
 
