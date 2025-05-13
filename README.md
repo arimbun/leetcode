@@ -14,6 +14,7 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 
 ## Dynamic Programming
 
+- 22. Generate Parentheses
 - 45. Jump Game II
 - 55. Jump Game
 - 62. Unique Paths
@@ -32,6 +33,7 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 
 - 3. Longest Substring Without Repeating Characters
 - 5. Longest Palindromic Substring
+- 17. Letter Combinations of a Phone Number
 - 383. Ransom Note
 
 ## Linked List
