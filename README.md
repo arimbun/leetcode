@@ -15,6 +15,8 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 ## Dynamic Programming
 
 - 22. Generate Parentheses
+- 39. Combination Sum
+  - Solution is suboptimal
 - 45. Jump Game II
 - 55. Jump Game
 - 62. Unique Paths
