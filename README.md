@@ -63,7 +63,7 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 
 - 1338. Reduce Array Size to The Half
 
-## Recursion
+## DFS
 
 - 46. Permutations
 
