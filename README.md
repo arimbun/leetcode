@@ -63,6 +63,10 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 
 - 1338. Reduce Array Size to The Half
 
+## Recursion
+
+- 46. Permutations
+
 ## Two Pointers
 
 - 15. 3Sum
