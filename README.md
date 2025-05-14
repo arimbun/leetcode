@@ -2,6 +2,7 @@
 
 Solutions to problems on [LeetCode](https://leetcode.com/) with explanations where applicable.
 
+- [DFS](#dfs)
 - [Dynamic Programming](#dynamic-programming)
 - [Hash Map](#hash-map)
 - [Linked List](#linked-list)
@@ -11,6 +12,10 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 - [Priority Queue](#priority-queue)
 - [Two Pointers](#two-pointers)
 - [Others](#others)
+
+## DFS
+
+46. Permutations
 
 ## Dynamic Programming
 
@@ -62,10 +67,6 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 ## Priority Queue
 
 1338. Reduce Array Size to The Half
-
-## DFS
-
-46. Permutations
 
 ## Two Pointers
 
