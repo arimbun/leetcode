@@ -2,7 +2,7 @@
 
 Solutions to problems on [LeetCode](https://leetcode.com/) with explanations where applicable.
 
-- [DFS](#dfs)
+- [Depth-First Search](#depth-first-search)
 - [Dynamic Programming](#dynamic-programming)
 - [Hash Map](#hash-map)
 - [Linked List](#linked-list)
@@ -13,9 +13,10 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 - [Two Pointers](#two-pointers)
 - [Others](#others)
 
-## DFS
+## Depth-First Search
 
 46. Permutations
+47. Permutations II
 
 ## Dynamic Programming
 
