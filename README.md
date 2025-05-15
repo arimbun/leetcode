@@ -2,21 +2,20 @@
 
 Solutions to problems on [LeetCode](https://leetcode.com/) with explanations where applicable.
 
-- [Depth-First Search](#depth-first-search)
+## Table of Contents
+
 - [Dynamic Programming](#dynamic-programming)
 - [Hash Map](#hash-map)
 - [Linked List](#linked-list)
 - [Maximum Subarray Sum](#maximum-subarray-sum)
 - [Maximum Sum Subsequence](#maximum-sum-subsequence)
 - [Search](#search)
+  - [Binary Search](#binary-search)
+  - [Depth-First Search](#depth-first-search)
+  - [Others](#others-1)
 - [Priority Queue](#priority-queue)
 - [Two Pointers](#two-pointers)
-- [Others](#others)
-
-## Depth-First Search
-
-46. Permutations
-47. Permutations II
+- [Others](#others-2)
 
 ## Dynamic Programming
 
@@ -59,6 +58,17 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 53. Maximum Subarray
 
 ## Search
+
+### Binary Search
+
+875. Koko Eating Bananas
+
+### Depth-First Search
+
+46. Permutations
+47. Permutations II
+
+### Others
 
 33. Search in Rotated Sorted Array
 34. Find First and Last Position of Element in Sorted Array
