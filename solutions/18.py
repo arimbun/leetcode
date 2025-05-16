@@ -3,7 +3,6 @@ from typing import List
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         s_nums = sorted(nums)
-        # print("s_nums:",s_nums)
 
         result = []
         for a in range(len(s_nums)-3):
