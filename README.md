@@ -81,6 +81,7 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 
 15. 3Sum
 16. 3Sum Closest to Target
+18. 4Sum
 
 ## Others
 
