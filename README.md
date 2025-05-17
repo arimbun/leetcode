@@ -60,6 +60,7 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 ### Binary Search
 
 875. Koko Eating Bananas
+2226. Maximum Candies Allocated to K Children
 
 ### Depth-First Search
 
