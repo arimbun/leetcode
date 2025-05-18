@@ -64,8 +64,10 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 ### Binary Search
 
 875. Koko Eating Bananas
+1870. Minimum Speed to Arrive on Time
 2064. Minimized Maximum of Products Distributed to Any Store
 2226. Maximum Candies Allocated to K Children
+
 
 ### Depth-First Search
 
