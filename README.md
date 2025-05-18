@@ -68,7 +68,6 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 2064. Minimized Maximum of Products Distributed to Any Store
 2226. Maximum Candies Allocated to K Children
 
-
 ### Depth-First Search
 
 46. Permutations
@@ -77,6 +76,8 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 ## Sorting
 
 49. Group Anagrams
+56. Merge Intervals
+  - sort + set + hash map
 
 ## Two Pointers
 
