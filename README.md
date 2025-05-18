@@ -7,13 +7,13 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 - [Linked List](#linked-list)
 - [Maximum Subarray Sum](#maximum-subarray-sum)
 - [Maximum Sum Subsequence](#maximum-sum-subsequence)
+- [Priority Queue](#priority-queue)
 - [Search](#search)
   - [Binary Search](#binary-search)
   - [Depth-First Search](#depth-first-search)
-  - [Others](#others-1)
-- [Priority Queue](#priority-queue)
+- [Sorting](#sorting)
 - [Two Pointers](#two-pointers)
-- [Others](#others-2)
+- [Others](#others)
 
 ## Dynamic Programming
 
@@ -55,6 +55,10 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 
 53. Maximum Subarray
 
+## Priority Queue
+
+1338. Reduce Array Size to The Half
+
 ## Search
 
 ### Binary Search
@@ -68,16 +72,9 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 46. Permutations
 47. Permutations II
 
-### Others
+## Sorting
 
-33. Search in Rotated Sorted Array
-34. Find First and Last Position of Element in Sorted Array
-74. Search a 2D Matrix
-872. Leaf-Similar Trees
-
-## Priority Queue
-
-1338. Reduce Array Size to The Half
+49. Group Anagrams
 
 ## Two Pointers
 
@@ -89,3 +86,7 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 
 13. Roman to Integer
 14. Longest Common Prefix
+33. Search in Rotated Sorted Array
+34. Find First and Last Position of Element in Sorted Array
+74. Search a 2D Matrix
+872. Leaf-Similar Trees
