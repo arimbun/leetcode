@@ -2,6 +2,7 @@
 
 Solutions to problems on [LeetCode](https://leetcode.com/) with explanations where applicable.
 
+- [Array / String](#array--string)
 - [Dynamic Programming](#dynamic-programming)
 - [Hash Map](#hash-map)
 - [Linked List](#linked-list)
@@ -14,6 +15,10 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 - [Sorting](#sorting)
 - [Two Pointers](#two-pointers)
 - [Others](#others)
+
+## Array / String
+
+151. Reverse Words in a String
 
 ## Dynamic Programming
 
