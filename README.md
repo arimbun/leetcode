@@ -36,6 +36,7 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 221. Maximal Square
 279. Perfect Squares
 322. Coin Change
+334. Increasing Triplet Subsequence
 983. Minimum Cost For Tickets
 1014. Best Sightseeing Pair
 
