@@ -79,6 +79,10 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 46. Permutations
 47. Permutations II
 
+## Sliding Window
+
+1456. Maximum Number of Vowels in a Substring of Given Length
+
 ## Sorting
 
 49. Group Anagrams
