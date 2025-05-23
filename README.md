@@ -12,6 +12,7 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 - [Search](#search)
   - [Binary Search](#binary-search)
   - [Depth-First Search](#depth-first-search)
+- [Sliding Window](#sliding-window)
 - [Sorting](#sorting)
 - [Two Pointers](#two-pointers)
 - [Others](#others)
