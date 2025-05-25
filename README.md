@@ -80,8 +80,8 @@ Solutions to problems on [LeetCode](https://leetcode.com/).
 
 ### Depth-First Search
 
-46. Permutations (note: recursion)
-47. Permutations II (note: recursion)
+46. Permutations (note: uses recursion)
+47. Permutations II (note: uses recursion)
 
 ## Sliding Window
 
@@ -95,7 +95,7 @@ Solutions to problems on [LeetCode](https://leetcode.com/).
 
 ## Stack
 
-394. Decode String (note: recursion)
+394. Decode String (note: uses recursion)
 2390. Removing Stars From a String
 
 ## Two Pointers
