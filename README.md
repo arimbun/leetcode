@@ -80,8 +80,8 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 
 ### Depth-First Search
 
-46. Permutations
-47. Permutations II
+46. Permutations (note: recursion)
+47. Permutations II (note: recursion)
 
 ## Sliding Window
 
@@ -91,13 +91,11 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 ## Sorting
 
 49. Group Anagrams
-56. Merge Intervals
-  - sort + set + hash map
+56. Merge Intervals (note: sort + set + hash map)
 
 ## Stack
 
-394. Decode String
-  - recursion
+394. Decode String (note: recursion)
 2390. Removing Stars From a String
 
 ## Two Pointers
