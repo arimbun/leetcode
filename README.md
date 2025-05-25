@@ -4,7 +4,7 @@ Solutions to problems on [LeetCode](https://leetcode.com/).
 
 - [Array / String](#array--string)
 - [Dynamic Programming](#dynamic-programming)
-- [Hash Map](#hash-map)
+- [Hash Table](#hash-table)
 - [Linked List](#linked-list)
 - [Maximum Subarray Sum](#maximum-subarray-sum)
 - [Maximum Sum Subsequence](#maximum-sum-subsequence)
@@ -42,7 +42,7 @@ Solutions to problems on [LeetCode](https://leetcode.com/).
 983. Minimum Cost For Tickets
 1014. Best Sightseeing Pair
 
-## Hash Map
+## Hash Table
 
 3. Longest Substring Without Repeating Characters
 5. Longest Palindromic Substring
@@ -73,6 +73,9 @@ Solutions to problems on [LeetCode](https://leetcode.com/).
 
 ### Binary Search
 
+33. Search in Rotated Sorted Array
+34. Find First and Last Position of Element in Sorted Array
+74. Search a 2D Matrix
 875. Koko Eating Bananas
 1870. Minimum Speed to Arrive on Time
 2064. Minimized Maximum of Products Distributed to Any Store
@@ -109,7 +112,4 @@ Solutions to problems on [LeetCode](https://leetcode.com/).
 
 13. Roman to Integer
 14. Longest Common Prefix
-33. Search in Rotated Sorted Array
-34. Find First and Last Position of Element in Sorted Array
-74. Search a 2D Matrix
 872. Leaf-Similar Trees
