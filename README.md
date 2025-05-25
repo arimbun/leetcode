@@ -1,6 +1,6 @@
 # leetcode
 
-Solutions to problems on [LeetCode](https://leetcode.com/) with explanations where applicable.
+Solutions to problems on [LeetCode](https://leetcode.com/).
 
 - [Array / String](#array--string)
 - [Dynamic Programming](#dynamic-programming)
