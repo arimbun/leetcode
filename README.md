@@ -14,7 +14,7 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
   - [Depth-First Search](#depth-first-search)
 - [Sliding Window](#sliding-window)
 - [Sorting](#sorting)
-- [Stack][#stack]
+- [Stack](#stack)
 - [Two Pointers](#two-pointers)
 - [Others](#others)
 
