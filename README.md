@@ -14,6 +14,7 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
   - [Depth-First Search](#depth-first-search)
 - [Sliding Window](#sliding-window)
 - [Sorting](#sorting)
+- [Stack][#stack]
 - [Two Pointers](#two-pointers)
 - [Others](#others)
 
@@ -92,6 +93,10 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 49. Group Anagrams
 56. Merge Intervals
   - sort + set + hash map
+
+## Stack
+
+2390. Removing Stars From a String
 
 ## Two Pointers
 
