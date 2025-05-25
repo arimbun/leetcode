@@ -2,25 +2,39 @@
 
 Solutions to problems on [LeetCode](https://leetcode.com/).
 
-- [Array / String](#array--string)
+- [Array](#array)
+- [Binary Search](#binary-search)
+- [Depth-First Search](#depth-first-search)
 - [Dynamic Programming](#dynamic-programming)
 - [Hash Table](#hash-table)
 - [Linked List](#linked-list)
 - [Maximum Subarray Sum](#maximum-subarray-sum)
 - [Maximum Sum Subsequence](#maximum-sum-subsequence)
-- [Priority Queue](#priority-queue)
-- [Search](#search)
-  - [Binary Search](#binary-search)
-  - [Depth-First Search](#depth-first-search)
+- [Queue](#queue)
 - [Sliding Window](#sliding-window)
 - [Sorting](#sorting)
 - [Stack](#stack)
 - [Two Pointers](#two-pointers)
 - [Others](#others)
 
-## Array / String
+## Array
 
 151. Reverse Words in a String
+
+## Binary Search
+
+33. Search in Rotated Sorted Array
+34. Find First and Last Position of Element in Sorted Array
+74. Search a 2D Matrix
+875. Koko Eating Bananas
+1870. Minimum Speed to Arrive on Time
+2064. Minimized Maximum of Products Distributed to Any Store
+2226. Maximum Candies Allocated to K Children
+
+## Depth-First Search
+
+46. Permutations (note: uses recursion)
+47. Permutations II (note: uses recursion)
 
 ## Dynamic Programming
 
@@ -65,26 +79,9 @@ Solutions to problems on [LeetCode](https://leetcode.com/).
 
 53. Maximum Subarray
 
-## Priority Queue
+## Queue
 
 1338. Reduce Array Size to The Half
-
-## Search
-
-### Binary Search
-
-33. Search in Rotated Sorted Array
-34. Find First and Last Position of Element in Sorted Array
-74. Search a 2D Matrix
-875. Koko Eating Bananas
-1870. Minimum Speed to Arrive on Time
-2064. Minimized Maximum of Products Distributed to Any Store
-2226. Maximum Candies Allocated to K Children
-
-### Depth-First Search
-
-46. Permutations (note: uses recursion)
-47. Permutations II (note: uses recursion)
 
 ## Sliding Window
 
