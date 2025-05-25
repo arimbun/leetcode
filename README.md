@@ -96,6 +96,8 @@ Solutions to problems on [LeetCode](https://leetcode.com/) with explanations whe
 
 ## Stack
 
+394. Decode String
+  - recursion
 2390. Removing Stars From a String
 
 ## Two Pointers
