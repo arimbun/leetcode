@@ -70,6 +70,8 @@ Solutions to problems on [LeetCode](https://leetcode.com/).
 - 2: Add Two Numbers
 - 234: Palindrome Linked List
 - 876: Middle of the Linked List
+- 2095: Delete the Middle Node of a Linked List
+
 
 ## Maximum Subarray Sum
 
