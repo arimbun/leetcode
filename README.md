@@ -96,6 +96,7 @@ Solutions to problems on [LeetCode](https://leetcode.com/).
 ## Stack
 
 - 394: Decode String (note: uses recursion)
+- 735: Asteroid Collision
 - 2390: Removing Stars From a String
 
 ## Two Pointers
